@@ -1,10 +1,9 @@
 # About this Repo
 
-[![Docker Stars](https://img.shields.io/docker/stars/_/elixir.svg?style=flat-square)](https://hub.docker.com/_/elixir/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/_/elixir.svg?style=flat-square)](https://hub.docker.com/_/elixir/)
-[![Image Layers](https://badge.imagelayers.io/elixir:latest.svg)](https://imagelayers.io/?images=elixir:latest 'Show Image Layers at imagelayers.io')
+[![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/imloftis/elixir/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/imloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
+[![Image Layers](https://badge.imagelayers.io/mloftis/elixir-extended:latest.svg)](https://imagelayers.io/?images=mloftis%2Felixir-extended:latest 'Show Image Layers at imagelayers.io')
 
-[![Build Status](https://travis-ci.org/c0b/docker-elixir.svg?branch=master)](https://travis-ci.org/c0b/docker-elixir)
 
 This is for elixir latest stable image and next -dev image.
 
