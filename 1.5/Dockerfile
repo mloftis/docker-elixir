@@ -15,7 +15,7 @@ RUN set -xe \
 	&& cd /usr/local/src/elixir \
 	&& make install clean
 RUN apt-get update
-RUN apt-get dist-upgrage -y
+RUN apt-get dist-upgrade -y
 RUN apt-get install libgmp-dev libboost-dev
 
 CMD ["iex"]
