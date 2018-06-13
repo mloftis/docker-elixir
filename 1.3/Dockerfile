@@ -1,5 +1,12 @@
 
 FROM erlang:19
+ARG VCS_REF
+ARG BUILD_DATE
+
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+          org.label-schema.vcs-url="https://github.com/mloftis/docker-elixir" \
+          org.label-schema.build-date=$BUILD_DATE \
+          org.label-schema.schema-version="1.0"
 
 # elixir expects utf8.
 ENV ELIXIR_VERSION="v1.3.4" \
