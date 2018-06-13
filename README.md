@@ -2,7 +2,7 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/imloftis/elixir/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
-[![](https://images.microbadger.com/badges/image/mloftis/sevend-postgis.svg)](https://microbadger.com/images/mloftis/sevend-postgis "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own image badge on microbadger.com")
 
 This is for elixir latest stable image and next -dev image.
 
