@@ -1,7 +1,6 @@
+FROM erlang:20
 ARG VCS_REF
 ARG BUILD_DATE
-
-FROM erlang:20
 
 LABEL org.label-schema.vcs-ref=$VCS_REF \
           org.label-schema.vcs-url="https://github.com/mloftis/docker-elixir" \
