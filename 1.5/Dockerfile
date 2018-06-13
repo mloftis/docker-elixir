@@ -16,6 +16,6 @@ RUN set -xe \
 	&& make install clean
 RUN apt-get update
 RUN apt-get dist-upgrade -y
-RUN apt-get install libgmp-dev libboost-dev
+RUN apt-get install -y libgmp-dev libboost-dev
 
 CMD ["iex"]
