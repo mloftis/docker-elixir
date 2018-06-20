@@ -25,6 +25,6 @@ RUN set -xe \
 	&& rm -rf /usr/src/elixir-src
 RUN apt-get update
 RUN apt-get dist-upgrade -y
-RUN apt-get -y install libgmp-dev libboost-dev
+RUN apt-get -y install libgmp-dev libboost-dev postgresql-client
 
 CMD ["iex"]
