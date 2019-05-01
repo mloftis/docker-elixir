@@ -1,9 +1,9 @@
 #!/bin/bash
 set -eu
 
-declare -a -r versions=( 1.6 1.5 1.4 1.3 )
+declare -a -r versions=( 1.8 1.7 1.6 )
 declare -A -r aliases=(
-	[1.6]='latest'
+	[1.8]='latest'
 )
 
 # get the most recent commit which modified any of "$@"
@@ -48,10 +48,10 @@ extractVersion() {
 self="${BASH_SOURCE##*/}"
 
 cat <<-EOH
-# this file is generated via https://github.com/c0b/docker-elixir/blob/$(fileCommit "$self")/$self
+# this file is generated via https://github.com/mloftis/docker-elixir/blob/$(fileCommit "$self")/$self
 
 Maintainers: Mr C0B <denc716@gmail.com> (@c0b)
-GitRepo: https://github.com/c0b/docker-elixir.git
+GitRepo: https://github.com/mloftis/docker-elixir.git
 EOH
 
 for version in "${versions[@]}"; do
