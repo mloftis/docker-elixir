@@ -18,5 +18,5 @@ RUN set -xe \
 	&& unzip -d /usr/local elixir-precompiled.zip \
 	&& rm elixir-precompiled.zip \
 	&& apk del .build-deps
-
+RUN apk add --no-cache gmp-dev postgresql-client boost
 CMD ["iex"]
