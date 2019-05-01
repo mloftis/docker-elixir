@@ -50,7 +50,7 @@ self="${BASH_SOURCE##*/}"
 cat <<-EOH
 # this file is generated via https://github.com/mloftis/docker-elixir/blob/$(fileCommit "$self")/$self
 
-Maintainers: Mr C0B <denc716@gmail.com> (@c0b)
+Maintainers: Michael Loftis <mloftis@wgops.com>
 GitRepo: https://github.com/mloftis/docker-elixir.git
 EOH
 
