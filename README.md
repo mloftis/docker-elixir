@@ -2,7 +2,13 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/imloftis/elixir/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
-[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own commit badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own image badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own image badge on microbadger.com")
+
+Deploying additional build(s) with OTP 22 as the base! (see tags with otp22) 
 
 This image builds off of the elixir image, but only for the "fat" builds.  It adds Pg client and GMP libs.
 
