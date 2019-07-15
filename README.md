@@ -8,6 +8,8 @@
 
 [![](https://images.microbadger.com/badges/version/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own image badge on microbadger.com")
 
+Latest has been moved from 1.6 to 1.9otp22! (20190715)
+
 Deploying additional build(s) with OTP 22 as the base! (see tags with otp22) 
 
 This image builds off of the elixir image, but only for the "fat" builds.  It adds Pg client and GMP libs.
