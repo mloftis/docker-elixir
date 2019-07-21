@@ -24,6 +24,6 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
           org.label-schema.schema-version="1.0"
 
 
-RUN set -x && apt-get update && apt-get install -y libgmp-dev libboost-dev postgresql-client
+RUN set -x && apt-get update && apt-get install -y libgmp-dev libboost-dev postgresql-client ocl-icd-opencl-dev ocl-icd-libopencl1 pocl-opencl-icd 
 
 CMD ["iex"]
