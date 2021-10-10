@@ -6,11 +6,13 @@
 
 [![](https://images.microbadger.com/badges/version/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own image badge on microbadger.com")
 
-[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended:1.8otp22.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.8otp22 "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended:1.12otp24.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.12otp24 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended:1.12otp24.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.12otp24 "Get your own image badge on microbadger.com")
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
-Latest has been moved from 1.6 to 1.9otp22! (20190715)
+Latest has been moved from 1.9otp22 to 1.12otp24! (20211010)
+
+Stopped building 1.4 through 1.7, 1.8-alpine. (20211010)
 
 Deploying additional build(s) with OTP 22 as the base! (see tags with otp22) 
 
