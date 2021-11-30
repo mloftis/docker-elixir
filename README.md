@@ -2,11 +2,6 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/imloftis/elixir/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
-[![](https://images.microbadger.com/badges/commit/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own commit badge on microbadger.com")
-
-[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended.svg)](https://microbadger.com/images/mloftis/elixir-extended "Get your own image badge on microbadger.com")
-
-[![](https://images.microbadger.com/badges/version/mloftis/elixir-extended:1.12otp24.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.12otp24 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/mloftis/elixir-extended:1.12otp24.svg)](https://microbadger.com/images/mloftis/elixir-extended:1.12otp24 "Get your own image badge on microbadger.com")
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
