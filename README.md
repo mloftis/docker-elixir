@@ -1,11 +1,13 @@
 # About this Repo
 
-[![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/imloftis/elixir/)
+[![Docker Stars](https://img.shields.io/docker/stars/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
+Latest Build Size ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mloftis/elixir-extended/latest)
+
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
-Latest has been moved from 1.9otp22 to 1.12otp24! (20211010)
+Latest has been moved to 1.15otp26! (20231018)
 
 Stopped building 1.4 through 1.7, 1.8-alpine. (20211010)
 
