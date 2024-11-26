@@ -7,14 +7,15 @@ Latest Build Size ![Docker Image Size (tag)](https://img.shields.io/docker/image
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
-Latest has been moved to 1.15otp26! (20231018)
+Latest has been moved to 1.17! (20241126)
 
 Stopped building 1.4 through 1.7, 1.8-alpine. (20211010)
 
-Deploying additional build(s) with OTP 22 as the base! (see tags with otp22) 
+All versions prior to 1.14otp25 REMOVED (20241126)
 
 This image builds off of the elixir image, but only for the "fat" builds.  It adds Pg client and GMP libs.
 
-More things to come as needed for my own use, but, feel free to use this for yours.  I won't be removing anything from the builds only adding to them, check the Dockerfile's to see what
-packages get added.  For general use elixir, please use the official images!
+I kind of lied, I *AM* now removing ancient unsupported images from my builds and tags.  Too many security vulns, and I want to discourage using them.
+
+For general usei of elixir, please use the official images!
 
