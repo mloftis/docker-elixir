@@ -7,6 +7,9 @@ Latest Build Size ![Docker Image Size (tag)](https://img.shields.io/docker/image
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
+Builds for 1.19 coming up (20251228)
+Planning on bumping latest to 1.18 soon.
+
 Latest has been moved to 1.17! (20241126)
 
 Stopped building 1.4 through 1.7, 1.8-alpine. (20211010)
