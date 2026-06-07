@@ -4,6 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/mloftis/elixir-extended.svg?style=flat-square)](https://hub.docker.com/mloftis/elixir/)
 Latest Build Size ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mloftis/elixir-extended/latest)
 
+ARCHIVED AND MOVED TO https://forge.wgops.com/mloftis/elixir-extended
 
 Normal fat image builds now pulling in OpenCL ICD and pocl.  These packages do not appear to exist in alpine (and we've never used alpine anyway) (20190721)
 
